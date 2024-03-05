@@ -11,17 +11,17 @@ import Footer from '../components/Footer';
 const HomePage = () => {
 
     return (
-        <div className='absolute w-full bg-[#1b1b1b] -z-50 overflow-x-clip '>
+        <div className='absolute w-full bg-[#333333] -z-50 overflow-x-clip '>
             <div className='mx-6 sm:mx-16 xl:mx-36'>
                 <Header />
                 <Hero />
-                <Partners />
+
             </div>
             <HomeServices />
             <OurWork />
-            <Team />
+
             <MeetDiogo />
-            <WorkWithUs scrollBreakpoint={80} scrollBreakpointTabletLarge={86} scrollBreakpointTablet={84} scrollBreakpointMobile={84} />
+
             <Footer />
         </div>
     );

@@ -24,7 +24,7 @@ const MagnaLandingPage = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []); 
+    }, []);
 
 
     return (

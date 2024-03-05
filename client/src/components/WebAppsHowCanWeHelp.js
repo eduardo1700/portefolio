@@ -85,7 +85,7 @@ const AgenciesServices = () => {
                         <img src='images/iphoneMrwipe.png' alt="telephones" className='h-[706px]  ' />
                     </div>
                 </div>
-                
+
                 <div className='flex mt-8 gap-x-8 mx-'>
                     <div className='w-full p-[1px] shadow-lg rounded-xl relative borderGradient6 flex flex-grow'>
                         <div className='relative rounded-xl' style={{ background: 'url(images/clients/tomoya.jpg) center/cover no-repeat', }}>

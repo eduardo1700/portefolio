@@ -134,7 +134,7 @@ function Form(props) {
                                             {strings.home.form.heading}<span className='text-orange'>.</span>
                                         </h2>
                                         <div className='flex justify-center sm:pt-0 pt-4'>
-                                        <img className='sm:block hidden grayscale-[0.5] rounded-xl' src='images/form/meeting.jpg' alt='Meeting' />
+                                            <img className='sm:block hidden grayscale-[0.5] rounded-xl' src='images/form/meeting.jpg' alt='Meeting' />
                                             <img className='block sm:hidden grayscale-[0.5] w-[85%] rounded-xl' src='images/form/meetingPhone.jpg' alt='Meeting' />
                                         </div>
                                     </div>
@@ -182,7 +182,7 @@ function Form(props) {
                                                 <textarea rows={4} className='text-white resize-none px-6 py-4 rounded-md bg-[#393939] mt-1 border border-[#575757]' placeholder={strings.home.form.projectPlaceholder} onChange={(e) => formData.message = e.target.value} />
                                             </div>
                                             <div className='flex justify-end'>
-                                                <button onClick={handleSubmit}  className="p-3 px-10 mt-6 font-bold tracking-wider text-white uppercase transition-opacity bg-gradient-to-r darkOrangeGradient text-buttonText hover:opacity-75" style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}>
+                                                <button onClick={handleSubmit} className="p-3 px-10 mt-6 font-bold tracking-wider text-white uppercase transition-opacity bg-gradient-to-r darkOrangeGradient text-buttonText hover:opacity-75" style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}>
                                                     {strings.home.form.submit}
                                                 </button>
                                             </div>

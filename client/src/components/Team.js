@@ -15,7 +15,7 @@ const TestimonialCarousel = () => {
 
         // Attach the scroll event listener when the component mounts
         window.addEventListener('scroll', handleScroll);
-        
+
 
         // Clean up the event listener when the component unmounts
         return () => {
@@ -67,7 +67,7 @@ const TestimonialCarousel = () => {
                     <div className='relative transition-colors w-[80%]  md:w-[20%] md:hover:w-[26rem] h-[30rem] group grayscale hover:grayscale-[0.4]' style={{ background: 'linear-gradient(0deg, rgba(32, 32, 32, 0.9) 10%, rgba(32, 32, 32, 0) 50%), url(images/team/JoaoMouraGuedes.jpg) top/cover no-repeat', transition: 'all 0.5s ease' }}>
                         <p className='absolute font-bold text-white bottom-6 text-heading4 left-4 group-hover:left-4'>João Moura Guedes</p>
                         <p className="absolute font-bold tracking-wider uppercase transition-opacity duration-75 ease-in opacity-0 group-hover:opacity-100 group-hover:duration-500 text-orange bottom-2 text-heading6 left-4">
-                           {strings.home.team.operationsManager}
+                            {strings.home.team.operationsManager}
                         </p>
                     </div>
                     <div className='relative transition-colors w-[80%] md:w-[20%] md:hover:w-[26rem] h-[30rem] group grayscale hover:grayscale-[0.4]' style={{ background: 'linear-gradient(0deg, rgba(32, 32, 32, 0.9) 10%, rgba(32, 32, 32, 0) 50%), url(images/team/andre.jpg) top/cover no-repeat', transition: 'all 0.5s ease' }}>

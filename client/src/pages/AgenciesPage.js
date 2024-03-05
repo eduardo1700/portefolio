@@ -13,7 +13,7 @@ const AgenciesPage = () => {
                 <Hero />
                 
             </div>
-            <Partners />
+            
             <Services />
             <WorkWithUs scrollBreakpoint={57} scrollBreakpointTabletLarge={58} scrollBreakpointTablet={66} scrollBreakpointMobile={64.2} />
             <Footer />

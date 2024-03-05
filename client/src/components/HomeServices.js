@@ -30,7 +30,7 @@ const HomeServices = () => {
     }, []);
 
     return (
-        <section id='creativeagency' className='mt-16'>
+        <section id='services' className='mt-16'>
             <div className='relative h-[18rem] lg:h-[22rem]'>
                 <div className='text-[3.5rem] xs:text-[4.5rem] sm:text-[9rem] lg:text-[13rem] select-none font-bold textTransparent text-orange opacity-80 uppercase w-full text-center absolute transition-all duration-1000 leading-[1.2]' style={{ top: `${posFirstWord}rem` }}>
                     {strings.home.services.heading}
@@ -77,9 +77,9 @@ const HomeServices = () => {
                                         {strings.home.cards.description2}
                                     </p>
                                     <div className='flex flex-col items-center gap-8 mt-4 lg:flex-row'>
-                                        <img className='relative w-[200px] -z-10' src='images/cards/Wordpress.svg' alt='Wordpress' />
-                                        <img className='relative w-[200px] -z-10' src='images/cards/react.svg' alt='React' />
-                                        <img className='relative w-[200px] -z-10' src='images/cards/Nextjs-logo.svg' alt='Next JS' />
+                                        <img className='relative w-[200px] -z-10 orange-to-sub' src='images/cards/Wordpress.svg' alt='Wordpress' />
+                                        <img className='relative w-[200px] -z-10 orange-to-sub' src='images/cards/react.svg' alt='React' />
+                                        <img className='relative w-[200px] -z-10 orange-to-sub' src='images/cards/Nextjs-logo.svg' alt='Next JS' />
                                     </div>
                                 </div>
                                 <img className='relative mt-10 -z-10' src='images/cards/macbook.png' alt='Iphone 15' />
@@ -106,11 +106,11 @@ const HomeServices = () => {
                             <div className='relative flex flex-col xl:flex-row rounded-xl -z-20 cardGradient4'>
                                 <div className='flex flex-row justify-center py-5 sm:py-10 xl:flex-col xl:justify-start rounded-xl bottomGradient4'>
                                     <div className='flex flex-row gap-4 px-5 lg:gap-24 xl:gap-1 xl:flex-col'>
-                                        <img className='h-9' src='images/cards/shopify.svg' alt='Shopify' />
-                                        <img className='h-11' src='images/cards/woocommerce.svg' alt='Woocommerce' />
-                                        <img className='h-11' src='images/cards/stripe.svg' alt='Stripe' />
-                                        <img className='h-11' src='images/cards/multibanco.svg' alt='Multibanco' />
-                                        <img className='sm:mt-1 h-11' src='images/cards/MBWay.svg' alt='MbWay' />
+                                        <img className='h-9 orange-to-sub' src='images/cards/shopify.svg' alt='Shopify' />
+                                        <img className='h-11 orange-to-sub' src='images/cards/woocommerce.svg' alt='Woocommerce' />
+                                        <img className='h-11 orange-to-sub' src='images/cards/stripe.svg' alt='Stripe' />
+                                        <img className='h-11 orange-to-sub' src='images/cards/multibanco.svg' alt='Multibanco' />
+                                        <img className='sm:mt-1 h-11 orange-to-sub' src='images/cards/MBWay.svg' alt='MbWay' />
                                     </div>
                                 </div>
                             </div>
@@ -137,60 +137,11 @@ const HomeServices = () => {
                     </div>
                 </div>
 
-                <div className='flex mt-8 gap-x-8 '>
-                    <div className='w-full p-[1px] shadow-lg rounded-xl relative borderGradient6 flex flex-grow'>
-                        <div className='relative rounded-xl' style={{ background: 'url(images/clients/rui-pena.jpg) center/cover no-repeat', }}>
-                            <div className='flex flex-col rounded-xl cardGradient6'>
-                                <div className='flex flex-col p-6 pt-10 pb-14 rounded-xl bottomGradient6'>
-                                    <div className='flex-grow sm:px-9'>
-                                        <div className='grid grid-cols-1 sm:grid-cols-2'>
-                                            <div>
-                                                <p className='mt-3 italic font-light text-darkGray text-heading4'>
-                                                    {strings.home.cards.rui}
-                                                </p>
-                                                <p className='mt-3 font-bold tracking-wide uppercase text-buttonText text-mediumGray'>Rui Pena - CEO at
-                                                    <span className='text-veryLightOrange'> Comenius.pt</span>
-                                                </p>
-                                                <a href="/#form" className="inline-block p-3 px-10 font-bold tracking-wider text-center text-white uppercase transition-opacity hover:opacity-75 mt-7 bg-gradient-to-r darkOrangeGradient text-buttonText" style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}>
-                                                    {strings.home.cards.button1}
-                                                </a>
-                                            </div>
-                                            <div></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div className='flex mt-8 gap-x-8 '>
-                    <div className='w-full p-[1px] shadow-lg rounded-xl relative borderGradient6 flex flex-grow'>
-                        <div className='flex flex-col w-full rounded-xl cardGradient6'>
-                            <div className='flex flex-col w-full p-6 pt-10 w-fit pb-14 rounded-xl bannerGradient'>
-                                <div className='flex-grow sm:px-9'>
-                                    <div className='grid grid-cols-1 sm:grid-cols-2'>
-                                        <div>
-                                            <p className='mt-3 italic font-bold text-white text-heading4'>
-                                            {strings.home.cards.banner.title}
-                                            </p>
-                                            <p className='mt-3 italic font-light text-white text-heading4'>
-                                                {strings.home.cards.banner.description}
-                                            </p>
-                                        </div>
-                                        <div className='flex items-center justify-center sm:justify-end'>
-                                            <a href="/webapps" className="inline-block p-3 px-10 font-bold tracking-wider text-white uppercase transition-opacity h-fit hover:opacity-75 mt-7 bg-slate-800 text-buttonText" style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}>
-                                                {strings.seeMore}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                
             </div>
-            <img className='w-[80rem] mt-6 mx-auto' src='images/cards/ourServices.png' alt='Our services' />
+            <img className='w-[80rem] mt-6 mx-auto orange-to-green' src='images/cards/ourServices.png' alt='Our services' />
         </section>
     );
 };

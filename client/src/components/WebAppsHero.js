@@ -32,7 +32,7 @@ const Body = () => {
             </div>
 
             <img src="images/hero/iphoneMrWipe.png" className='w-[1000px] lg:block hidden' />
-            
+
             <div className='flex w-full h-full'>
                 <img src='images/hero/dinamiteAgency.png' className='absolute opacity-70 top-[3.3rem] z-10 sm:right-[60vh] w-[635px] h-[750px]' alt='Dionamite' />
             </div>

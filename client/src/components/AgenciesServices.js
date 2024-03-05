@@ -11,7 +11,7 @@ const AgenciesServices = () => {
     useEffect(() => {
         const handleScroll = () => {
             if (window.innerWidth > 1024) { // Desktop
-                if ((window.scrollY * 100) / document.documentElement.scrollHeight >20
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 20
                 ) {
                     setPosFirstWord(4.5)
                     setPosSecondWord(4.5)
@@ -116,7 +116,7 @@ const AgenciesServices = () => {
                         </div>
                     </div>
                     <div className='xl:w-[670px] w-[320px] xl:h-[431px] xl:absolute relative xl:right-56  xl:mx-0 mx-auto '>
-                        <img src='images/telephones.png' alt="telephones"  />
+                        <img src='images/telephones.png' alt="telephones" />
                         <div className='absolute top-0 gradient-ball -z-50 ' />
                     </div>
                 </div>

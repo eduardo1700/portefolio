@@ -3,14 +3,24 @@
 @tailwind utilities;
 
 @layer components {
+  .orange-to-green {
+    filter: hue-rotate(125deg);
+    /* Adjust the degree value for the desired shade of green */
+  }
+
+  .orange-to-sub {
+
+    filter: hue-rotate(150deg) grayscale(90%);
+    /* Adjust the degree value for the desired shade of green */
+  }
 
   /* Gradients */
   .orangeGradient {
-    @apply from-[#FF935F] to-darkOrange
+    @apply from-[#C5EBAA] to-[#A5DD9B]
   }
 
   .darkOrangeGradient {
-    @apply from-orange to-[#6F2300]
+    @apply from-orange to-[#1A5D1A]
   }
 
   .yellowOrangeGradient {
@@ -79,19 +89,27 @@
 /* CARDS */
 /* Card1 */
 .borderGradient1 {
-  background: linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(33, 33, 33, 0) 50%);
-  background: -moz-linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -webkit-linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+  /* Adjust the RGB values for the desired green color */
+  border: 2px solid rgb(27, 77, 43);
+  background: linear-gradient(240deg, rgba(27, 77, 43, 1) 0%, rgba(33, 33, 33, 0) 50%);
+  background: -moz-linear-gradient(240deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(240deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4d2b", endColorstr="#202020", GradientType=1);
 }
 
 .cardGradient1 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: -webkit-linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
+
+
+
+
+
 
 .bottomGradient1 {
   background: rgb(32, 32, 32);
@@ -103,35 +121,41 @@
 
 /* Card2 */
 .borderGradient2 {
-  background: linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -moz-linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -webkit-linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+  border: 2px solid rgb(27, 77, 43);
+  background: linear-gradient(-60deg, rgba(27, 77, 43, 1) 0%, rgba(33, 33, 33, 0) 50%);
+  background: -moz-linear-gradient(-60deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(-60deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4d2b", endColorstr="#202020", GradientType=1);
 }
 
 .cardGradient2 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  background: linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
 
 /* Card3 */
 .borderGradient3 {
-  background: linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -moz-linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -webkit-linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+  border: 2px solid rgb(27, 77, 43);
+  background: linear-gradient(40deg, rgba(27, 77, 43, 1) 0%, rgba(33, 33, 33, 0) 50%);
+  background: -moz-linear-gradient(40deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(40deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4d2b", endColorstr="#202020", GradientType=1);
 }
 
+
 .cardGradient3 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  background: -webkit-linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  background: linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
+
 
 .bottomGradient3 {
   background: rgb(32, 32, 32);
@@ -142,13 +166,16 @@
 }
 
 /* Card4 */
+
 .cardGradient4 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: -webkit-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
+
 
 .bottomGradient4 {
   background: rgb(32, 32, 32);
@@ -160,18 +187,20 @@
 
 /* Card5 */
 .borderGradient5 {
-  background: linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -moz-linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  background: -webkit-linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+  border: 2px solid rgb(27, 77, 43);
+  background: linear-gradient(115DEG, rgba(27, 77, 43, 1) 0%, rgba(33, 33, 33, 0) 50%);
+  background: -moz-linear-gradient(115deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(115deg, rgba(27, 77, 43, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b4d2b", endColorstr="#202020", GradientType=1);
 }
 
 .cardGradient5 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: -webkit-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  background: linear-gradient(-10deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
 
 .bottomGradient5 {
@@ -195,11 +224,12 @@
 }
 
 .cardGradient6 {
-  background: rgb(77, 43, 27);
-  background: -moz-linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
-  background: -webkit-linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
-  background: linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+  background: #a8de9c;
+  /* Starting green color */
+  background: -moz-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: -webkit-linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  background: linear-gradient(198deg, rgba(57, 127, 73, 1) 0%, rgba(104, 207, 128, 0.5) 100%, rgba(249, 249, 249, 0.5) 30%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8de9c", endColorstr="#202020", GradientType=1);
 }
 
 /* Card Meet Diogo */
@@ -270,12 +300,15 @@
 .dionamites img:nth-child(1) {
   transform: translate(0%)
 }
+
 .dionamites img:nth-child(2) {
   transform: translate(-40%)
 }
+
 .dionamites img:nth-child(3) {
   transform: translate(20%)
 }
+
 .dionamites img:nth-child(4) {
   transform: translate(100%)
 }

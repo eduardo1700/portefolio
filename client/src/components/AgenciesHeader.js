@@ -21,7 +21,7 @@ const Header = () => {
             <div className=''>
                 <div className="flex  justify-center flex-row">
                     <nav className="flex relative items-center sm:justify-center justify-between  w-full mt-8">
-                        
+
                         {/* LOGO */}
                         <Link to="/" className='cursor-pointer z-50'>
                             <div className='flex  items-center' >
@@ -30,7 +30,7 @@ const Header = () => {
                             </div>
                         </Link>
 
-                        
+
                         <div className="absolute right-0">
                             <button className="text-white transition-transform duration-200 ease-linear transform hover:scale-110">
                                 <select
@@ -45,7 +45,7 @@ const Header = () => {
                     </nav>
                 </div>
 
-                
+
             </div>
         </header>
     );

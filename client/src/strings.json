@@ -3,672 +3,110 @@
         "header": {
             "services": "O QUE FAZEMOS",
             "portfolio": "NOSSOS PROJETOS",
-            "aboutus": "A EQUIPA",
-            "contacts": "TRABALHE CONOSCO"
+            "contacts": "TRABALHE COMIGO"
         },
         "home": {
             "hero": {
                 "heading": "Traga suas ideias para qualquer ecrã.",
-                "subheading": "A Dionamite é ",
-                "subheadingOrange": "a sua parceira para entregar o seu projeto",
+                "subheading": "Eu",
+                "subheadingOrange": " serei a sua parceira para entregar o seu projeto",
                 "subheadingOrange2": "ao mundo digital.",
                 "subheadingWhite": " Fornecemos orientação e clareza no processo de criação e oferecemos controle prático sobre o seu próprio produto digital. ",
-                "button": "Veja o que fazemos"
-            },
-            "partners": {
-                "heading": "Trabalhamos com empresas líderes."
+                "button": "Veja o que faço"
             },
             "services": {
                 "heading": "Our Services",
-                "subheading": "Como a Dionamite pode ajudar a impulsionar o seu sucesso",
-                "description": "Embarque numa jornada de capacitação digital com os nossos serviços de desenvolvimento focados. A Dionamite especializa-se em traduzir os seus conceitos em soluções digitais poderosas e de fácil utilização.",
+                "subheading": "Como Eu o posso ajudar a impulsionar o seu sucesso",
+                "description": "Embarque numa jornada de capacitação digital com os nossos serviços de desenvolvimento focados. Eu especializo-me em traduzir os seus conceitos em soluções digitais poderosas e de fácil utilização.",
                 "descriptionBold": " Quer seja uma agência de marketing em busca de uma presença web dinâmica ou uma empresa tecnologicamente avançada que procura aplicações de ponta,",
-                "description2": " será apoiado pela nossa experiência para elevar a sua narrativa digital para o próximo nível."
+                "description2": " será apoiado pela minha experiência para elevar a sua narrativa digital para o próximo nível."
             },
             "cards": {
                 "heading1": "Aplicações para telemóvel",
-                "description1": "A nossa equipa de especialistas transforma os seus conceitos em aplicações poderosas e de fácil utilização. Eleve a sua marca, cative a sua audiência e redefina possibilidades no mundo ao alcance das suas mãos.",
+                "description1": "Eu transformo os seus conceitos em aplicações poderosas e de fácil utilização. Eleve a sua marca, cative a sua audiência e redefina possibilidades no mundo ao alcance das suas mãos.",
                 "heading2": "Websites & Landing Pages",
-                "description2": "Dê vida à sua marca com a nossa experiência em desenvolver uma presença digital cativante e pronta para surpreender para a sua empresa.",
+                "description2": "Dê vida à sua marca com a minha experiência em desenvolver uma presença digital cativante e pronta para surpreender para a sua empresa.",
                 "heading3": "Lojas E-Commerce ",
-                "description3": "A sua loja online é o seu palco digital para destacar produtos e conectar-se com o seu público. Tenha uma orientação personalizada da Dionamite, adaptada às últimas tendências e melhores práticas.",
+                "description3": "A sua loja online é o seu palco digital para destacar produtos e conectar-se com o seu público. Tenha uma orientação personalizada, adaptada às últimas tendências e melhores práticas.",
                 "heading4": "Aplicações Web, CRMs",
                 "description4": "Desenvolvemos soluções que se integram perfeitamente às suas operações, oferecendo eficiência e escalabilidade. Desde aplicações web cativantes até CRMs personalizados, capacitamos o seu negócio com soluções digitais inovadoras e personalizadas.",
                 "button1": "Também quero essa expertise!",
-                "rui": "O que a Dionamite nos ajudou foi a personalização do desenvolvimento de soluções... Encontrei na Dionamite conhecimento vasto para ter a confiança de que vou ter uma aplicação que corresponde com precisão ao que os nossos negócios precisam.",
-                "tomoya": "O design não apenas capturou a essência da minha marca, mas também garantiu uma experiência do utilizador perfeita. O que os diferencia, especialmente o Diogo, é a abordagem personalizada. Eles dedicaram tempo para entender os objetivos do meu negócio e adaptaram o site de acordo. Essa atenção aos detalhes e compromisso em entregar mais do que o esperado, são 10/10!",
-                "avi": "  Entenderam rapidamente as nossas necessidades e expectativas, e entregaram para além delas.  A equipa tem um olhar aguçado para o design e a experiência do utilizador, e o resultado deles reflete isso. Estamos extremamente satisfeitos com o trabalho deles.",
                 "banner": {
                     "title": "Aplicações para a web",
-                    "description": "Nós criamos sites e aplicativos que resolvem problemas e melhoram negócios"
+                    "description": "Eu crio sites e aplicativos que resolvem problemas e melhoram negócios"
                 }
-            },
-            "team": {
-                "heading1": "Uma equipa de especialistas ansiosa para concretizar os seus sonhos digitais",
-                "heading2": "Na Dionamite, a nossa equipa especializada de desenvolvedores web e de aplicações está dedicada a criar excelência digital. Com uma paixão pela inovação, colaboramos de forma harmoniosa para transformar visões em experiências online impactantes. ",
-                "heading3": "Somos mais do que desenvolvedores - somos os seus parceiros comprometidos em alcançar o sucesso total.",
-                "operationsManager": "Gestor de operações"
             },
             "MeetDiogo": {
-                "heading": "Olá, sou o Diogo, CEO da Dionamite, e estou a fazer acontecer no coração de Lisboa",
-                "description1": "Desde a magia da programação até ao ensino dos segredos da programação, decidi transformar a minha perícia tecnológica em ação. Passo a passo, reuni a minha equipa e dei à luz uma agência com uma missão - ser o parceiro técnico por excelência para agências e empreendedores em necessidade. Porque quem disse que a tecnologia não pode ser divertida e amigável? Estamos aqui para espalhar um pouco de magia digital e tornar os seus sonhos tecnológicos realidade! 🚀✨",
-                "subheading": "Navegando pelos altos e baixos de apresentar a sua ideia de projeto a outra pessoa?",
-                "description2": "Acredite, eu entendo - já dancei com esse desafio quando me aventurei para além dos limites. Mas não se preocupe, porque estou aqui como o porta-tochas da minha equipa, dedicado a criar valor e a representar o nosso trabalho árduo. Todos os dias, lidero o ataque, fazendo a pergunta crucial: 'Estamos alinhados com as expectativas do cliente e do mercado?' Não é apenas uma mentalidade; é um compromisso com a honestidade na jornada de desenvolvimento, um ingrediente secreto que mantém as nossas relações com os clientes florescendo. Porque, na nossa perspetiva, a confiança e a transparência criam os melhores momentos de reviravolta!"
-            },
-            "form": {
-                "heading": "Crie o seu projeto connosco",
-                "subheading": "Pode entrar em contacto connosco através do formulário abaixo",
-                "subheading1": "ou diretamente ",
-                "subheading2": "pelo Whatsapp",
-                "subheading3": ", o que for mais conveniente para si.",
-                "name": "O SEU NOME",
-                "email": "O SEU EMAIL",
-                "company": "A SUA EMPRESA",
-                "after": "O QUE PROCURA?",
-                "afterPlaceholder": "Selecione o teu tipo de projeto",
-                "other": "Outro",
-                "project": "DIGA-NOS UM POUCO SOBRE O SEU PROJETO",
-                "projectPlaceholder": "Descreva o seu projeto...",
-                "submit": "Enviar a minha solicitação",
-                "errorMessages": {
-                    "allFields": "Preencha todos os campos.",
-                    "name": "Introduza um nome válido.",
-                    "email": "Introduza um email válido."
-                }
+                "heading": "Olá, sou o Eduardo, e estou a fazer acontecer no coração de Araraquara, SP",
+                "description1": "Já trabalhei como empregado para uma empresa que trabalha com clientes como a Creation, que conta connosco para montar websites 100% responsivos, e ajudar com novas funcionalidades, manutenção, e eventuais problemas que apareçam.",
+                "subheading": "Porque contratar uma pessoa individual em vez de uma empresa?",
+                "description2": "Optar por minha colaboração em vez de uma empresa traz vantagens significativas. Ao contratar uma empresa, muitas vezes, apenas uma pessoa está diretamente envolvida no seu projeto, embora você pague por uma equipe completa. Comigo, você investe em um profissional dedicado exclusivamente ao seu projeto, garantindo foco total e evitando custos excessivos associados a estruturas mais amplas."
             },
             "footer": {
                 "nav1": "O QUE FAZEMOS",
                 "nav2": "NOSSOS PROJETOS",
-                "nav3": "A EQUIPA",
                 "header1": "Entre em contacto",
                 "header2": "Siga as nossas Redes Sociais",
                 "portugal": "De Portugal para o mundo!",
                 "privacyPolicy": "Política de Privacidade",
                 "rights": "Todos os Direitos Reservados."
             }
-        },
-        "agencies": {
-            "hero": {
-                "heading": "Seu ",
-                "heading2": "parceiro estratégico ",
-                "heading3": "para construir o sucesso da sua agência",
-                "subheading1": "Transformamos as visões dos seus clientes em realidade em cada tela com mágica de SEO e UX.",
-                "subheading2": "Considere-nos seu parceiro principal",
-                "subheading3": "para todo desenvolvimento e manutenção de sites e aplicativos - porque o seu sucesso é o nosso código!",
-                "button": "Minha agência precisa de dinamite!"
-            },
-            "services": {
-                "heading1": "Você cuida do cliente,",
-                "heading2": "nós cuidamos da sua agência",
-                "subheading1": "A Dionamite se especializa em traduzir os conceitos dos seus clientes em soluções digitais poderosas e amigáveis ao usuário.",
-                "subheading2": "Se você é uma agência de marketing ou um estúdio de design procurando uma equipe de desenvolvimento bem estabelecida,",
-                "subheading3": "você será apoiado pela nossa experiência para elevar a narrativa digital do seu cliente para o próximo nível com suporte digital em todas as áreas, de sites a lojas virtuais."
-            }
-        },
-        "WebApps": {
-            "hero": {
-                "heading1": "Nós criamos ",
-                "heading2": "sites e aplicativos",
-                "heading3": " que resolvem problemas e melhoram negócios",
-                "subheading1": "Concebemos, nutrimos e entregamos sites e aplicativos únicos que dão vida aos sonhos digitais dos nossos clientes.",
-                "subheading2": " A nossa equipe atua como uma ponte forte, guiando projetos desde a ideia até o desenvolvimento.",
-                "subheading3": " Assim como um recém-nascido carrega potencial, as nossas criações entram no reino digital prontas para prosperar.",
-                "button": "Desenvolver minha ideia!"
-            },
-            "process": {
-                "heading1": "Pesquisa e Planeamento",
-                "heading2": "Design de UX e UI",
-                "heading3": "Desenvolvimento",
-                "heading4": "Testes e QA",
-                "heading5": "Lançamento",
-                "subheading1": "Realizaremos uma reunião inicial com o cliente. Identificaremos suas necessidades e metas e analisaremos os requisitos do projeto.",
-                "subheading2": "Realizaremos sessões de Wireframing e Prototipagem. Coletaremos feedback de design.",
-                "subheading3": "Escreveremos código e implementaremos funcionalidades. Realizaremos reuniões com você para discutir e colaborar em abordagens de codificação.",
-                "subheading4": "Realizaremos uma rigorosa garantia de qualidade. Conduziremos testes detalhados de bugs.",
-                "subheading5": "Realizaremos uma reunião com você para entender suas necessidades e metas. Conduziremos uma análise detalhada dos requisitos do projeto. Pesquisaremos o público-alvo e a concorrência do cliente. Definiremos o escopo e o cronograma do projeto, bem como as tecnologias a serem utilizadas."
-            }
-        },
-        "Magna": {
-            "cardDescription": "Aplicação de CRM para Gestão Profissional de Treinamento.",
-            "heading1": "Concebido com o propósito de ",
-            "heading2": "otimizar a administração de cursos ",
-            "heading3": "para a Cooperativa Comenius.",
-            "description1": "Magna oferece uma variedade de funcionalidades abrangentes, incluindo a criação de cursos com vários módulos, a inscrição de alunos em cursos e o registro de instrutores em um grupo de educadores. Instrutores registrados nesse grupo tornam-se elegíveis para atribuição a disciplinas específicas.",
-            "description2": "Uma característica notável do Magna é a automação na criação e gerenciamento de todos os documentos relacionados ao treinamento, utilizando Procedimentos Operacionais Padrão (SOP) para lidar com todos os Dossiês Técnico-Pedagógicos (DTP).",
-            "appInfo1": "Os coordenadores de cursos podem selecionar os documentos necessários para um curso específico, e a plataforma gera esses documentos automaticamente com base nos dados armazenados no banco de dados. Além disso, a plataforma permite o download, assinatura e posterior upload de documentos para referência futura.",
-            "appInfo2": "O Magna gera relatórios, como presença e participação, em formato Excel, e possibilita a inserção e atualização de dados por meio de documentos do Excel.",
-            "appInfo3": " Além disso, oferece recursos para a administração de dados pessoais e documentos de identificação de todos os envolvidos no processo de treinamento.",
-            "appInfo4": "A plataforma permite a organização eficiente de aulas, cursos, Unidades de Formação de Curta Duração (UFCDS) e disciplinas.",
-            "appInfo5": " Por fim, destaca-se por sua capacidade de gerar automaticamente contratos relacionados ao treinamento e enviá-los por e-mail aos destinatários.",
-            "appInfo6": "O Magna também se destaca por sua integração com o Moodle, permitindo a recuperação direta de informações dessa plataforma. Essa integração facilita o acesso a dados relevantes, como informações pessoais dos alunos e dados de avaliação, incluindo presença, participação e notas, entre outros.",
-            "appInfo7": "Além disso, o Magna integra-se ao Google Meet, criando automaticamente salas e enviando links a todos os participantes da aula. Dessa forma, o Magna não apenas simplifica a gestão de cursos, mas também estabelece uma ponte eficaz com o Moodle e o Google Meet, maximizando a integração de dados essenciais para uma administração eficiente e personalizada do processo de treinamento."
-        },
-        "MrWipe": {
-            "cardDescription": "Aplicação de limpeza para carros de luxo.",
-            "heading": "é uma aplicação inovadora para serviços de limpeza ecológica em casa e sob demanda",
-            "description1": "O MrWipe é uma aplicação para solicitar serviços de limpeza ecológica em casa e sob demanda, minimizando o uso de água. Ela permite o agendamento fácil em smartphones para serviços de limpeza rápidos e eficientes, destacando-se com ofertas premium adaptadas para necessidades de alta qualidade em casa ou no escritório.",
-            "description2": "Nosso cliente, um investidor dedicado a este projeto, escolheu a Dionamite com confiança, esperando entrega pontual e suporte pós-lançamento do aplicativo. O aplicativo, disponível no Google Play e iOS, atende a usuários, colaboradores e administradores, cada um com seu painel dedicado.",
-            "appInfo1": "Desenvolvido com Node, React Native, MongoDB e Firebase, o aplicativo prioriza a proteção dos direitos do usuário e do proprietário do aplicativo (MRWIPE UNIPESSOAL LDA).",
-            "appInfo2": "Recursos específicos incluem suporte a vários idiomas (inglês, português ou russo), ",
-            "appInfo3": "uma interface administrativa para rápida avaliação de candidatos a colaboradores de limpeza, integração de pagamento MBWAY e Stripe, faturamento online TOC e envio automatizado de e-mails.",
-            "appInfo4": "A aplicação também incorpora serviços de geolocalização,",
-            "appInfo5": " oferecendo rastreamento em tempo real de colaboradores de limpeza, agendamentos de utilizadores com base na disponibilidade do colaborador, notificações instantâneas de eventos,",
-            "appInfo6": " e o uso das APIs de Mapas e GeoLocalização para integração de rotas entre utilizadores e colaboradores.",
-            "appInfo7": "Para links do aplicativo, visite ",
-            "appInfo8": " ou procure por \"MrWipe\" na App Store para iOS."
-        },
-        "FormSuccess": {
-            "title": "Formulário submetido com sucesso",
-            "description": "Entraremos em contacto consigo o mais brevemente possível",
-            "button": "Concluído"
-        },
-        "backToHome": "Voltar para o início",
-        "seeMore": "Veja mais",
-        "seeMoreWork": "Veja mais projetos"
+        }
     },
     "EN": {
         "header": {
             "services": "WHAT WE DO",
-            "portfolio": "OUR WORK",
+            "portfolio": "OUR PROJECTS",
             "aboutus": "OUR TEAM",
             "contacts": "WORK WITH US"
         },
         "home": {
             "hero": {
-                "heading": "Bringing your ideas to any screen",
-                "subheading": "Dionamite is ",
-                "subheadingOrange": "your go-to partner to get your work",
-                "subheadingOrange2": "into the digital world.",
-                "subheadingWhite": " We provide guidance and clarity on the creation process, and get you hands-on control over your own digital product.",
-                "button": "See what we do"
-            },
-            "partners": {
-                "heading": "we work with leading companies"
+                "heading": "Bring your ideas to any screen",
+                "subheading": "I am",
+                "subheadingOrange": "your partner to take your work",
+                "subheadingOrange2": "to the digital world.",
+                "subheadingWhite": "I provide guidance and clarity in the creation process, giving hands-on control over your own digital product.",
+                "button": "See what I do"
             },
             "services": {
-                "heading": "Our Services",
-                "subheading": "How can Dionamite help you thrive",
-                "description": "Embark on a journey of digital empowerment with our focused development services. Dionamite specializes in translating your concepts into powerful, user-friendly digital solutions.",
+                "heading": "What We Do",
+                "subheading": "How can I help you thrive",
+                "description": "Embark on a journey of digital empowerment with our focused development services. I specialize in translating your concepts into powerful, user-friendly digital solutions.",
                 "descriptionBold": "Whether you're a marketing agency seeking a dynamic web presence or a tech-forward business aiming for cutting-edge applications,",
                 "description2": "you’ll be supported by our expertise to elevate your digital narrative to the next level."
             },
             "cards": {
-                "heading1": "Mobile Apps",
-                "description1": "Our expert team transforms your concepts into powerful, user-friendly applications. Elevate your brand, captivate your audience, and redefine possibilities in the world at the palm of your hands.",
+                "heading1": "Mobile Applications",
+                "description1": "I transform your concepts into powerful and user-friendly applications. Elevate your brand, captivate your audience, and redefine possibilities within reach of your hands in the world.",
                 "heading2": "Websites & Landing Pages",
-                "description2": "Bring your brand to life with our expertise in developing a captivating and ready-to-blow-minds digital presence for your company.",
+                "description2": "Bring your brand to life with our expertise in developing a captivating and ready-to-impress digital presence for your company.",
                 "heading3": "E-Commerce Stores",
-                "description3": "Your e-commerce is your digital stage to spotlight products and connect with your audience. Experience personalized guidance from Dionamite, tailored to the latest best practices and trends.",
+                "description3": "Your e-commerce is your digital stage to spotlight products and connect with your audience. Experience personalized guidance from Eduardo, tailored to the latest best practices and trends.",
                 "heading4": "Web Apps, CRMs",
                 "description4": "We develop solutions that seamlessly integrate into your operations, offering efficiency and scalability. From engaging web apps to customized CRMs, we empower your business with innovative, tailored digital solutions.",
                 "button1": "I need that expertise too!",
-                "rui": "What Dionamite helped us with was the customization of solution development... I found in Dionamite a vast knowledge that gives me the confidence that we will have an application that precisely meets the needs of our business.",
-                "tomoya": "The design not only captured the essence of my brand but also ensured a seamless user experience. What sets them apart, especially Diogo, is the personalized approach. They took the time to understand the goals of my business and tailored the website accordingly. This attention to detail and commitment to delivering more than expected is a 10/10!",
-                "avi": "They quickly understood our needs and expectations, delivering beyond them. The team has a keen eye for design and user experience, and their results reflect that. We're extremely pleased with their work.",
                 "banner": {
-                    "title": "Web Apps",
-                    "description": "We birth websites and apps that solves problems and improve businesses"
+                    "title": "Web Applications",
+                    "description": "I create websites and apps that solve problems and improve businesses"
                 }
-            },
-            "team": {
-                "heading1": "A team of experts just waiting to deploy your digital dreams.",
-                "heading2": "At Dionamite, our skilled team of web and app developers is dedicated to crafting digital excellence. With a passion for innovation, we collaborate seamlessly to transform visions into impactful online experiences. ",
-                "heading3": "We are more than developers – we are your committed partners in achieving complete success.",
-                "operationsManager": "Operations Manager"
             },
             "MeetDiogo": {
-                "heading": "Hey there, I'm Diogo–Dionamite’s CEO–rocking it in the heart of Lisbon!",
-                "description1": "From coding wizardry to teaching the secrets of programming, I decided to turn my tech prowess into action. Step by step, I gathered my squad and birthed an agency on a mission – to be the go-to tech sidekick for agencies and entrepreneurs in need. Because who says tech can't be fun and friendly? We're here to sprinkle some digital magic and make your tech dreams come true! 🚀✨",
-                "subheading": "Navigating the twists and turns of delivering your project idea to someone else? ",
-                "description2": "Trust me, I get it – I've danced with the challenge myself when venturing beyond. But fear not, because I'm here as the torchbearer for my team, dedicated to building value and representing our hard work. Each day, I lead the charge, asking the crucial question: 'Are we in sync with the client's and the market's expectations?' It's not just a mindset; it's a commitment to honesty in the development journey, a secret sauce that keeps our client relationships flourishing. Because in our book, trust and transparency make the best plot twists!"
-            },
-            "form": {
-                "heading": "Create your project with us.",
-                "subheading": "You can reach us via the form below or",
-                "subheading1": "you can contact us directly ",
-                "subheading2": " through Whatsapp",
-                "subheading3": ", whatever work better for you.",
-                "name": "your name",
-                "email": "Your email",
-                "company": "Your company",
-                "after": "What are you after?",
-                "afterPlaceholder": "Select your project type",
-                "other": "Outher",
-                "project": "Tell us a bit about your project",
-                "projectPlaceholder": "Describe the project here...",
-                "submit": "Send my inquire",
-                "errorMessages": {
-                    "allFields": "Fill in all fields.",
-                    "name": "Enter a valid name.",
-                    "email": "Enter a valid email."
-                }
+                "heading": "Hey there, I'm Eduardo, and I'm making things happen in the heart of Araraquara, SP",
+                "description1": "I've worked as an employee for a company that works with clients like Creation, relying on us to build 100% responsive websites and help with new features, maintenance, and any issues that may arise.",
+                "subheading": "Why hire an individual instead of a company?",
+                "description2": "Opting for my collaboration instead of a company brings significant advantages. When hiring a company, often only one person is directly involved in your project, even though you pay for a complete team. With me, you invest in a professional dedicated exclusively to your project, ensuring total focus and avoiding excessive costs associated with larger structures."
             },
             "footer": {
-                "nav1": "what we do",
-                "nav2": "our work",
-                "nav3": "the team",
-                "header1": "Get in touch ",
+                "nav1": "WHAT WE DO",
+                "nav2": "OUR PROJECTS",
+                "nav3": "OUR TEAM",
+                "header1": "Get in touch",
                 "header2": "Follow us on Social Media",
                 "portugal": "From Portugal to the world!",
                 "privacyPolicy": "Privacy Policy",
                 "rights": "All Rights Reserved."
             }
-        },
-        "agencies": {
-            "hero": {
-                "heading": "Your ",
-                "heading2": "strategic partner ",
-                "heading3": "to build your agency’s success",
-                "subheading1": "We turn your client’s visions into reality on every screen with SEO & UX magic.",
-                "subheading2": " Consider us your go-to partner",
-                "subheading3": " for all web & app development and maintenance — because your success is our code!",
-                "button": "My agency needs dionamite! "
-            },
-            "services": {
-                "heading1": "You take care of the client, ",
-                "heading2": "we take care of your agency",
-                "subheading1": "Dionamite specializes in translating your client’s concepts into powerful, user-friendly digital solutions. ",
-                "subheading2": "If you're a marketing agency or a design studio seeking a well established development team, ",
-                "subheading3": "you’ll be supported by our expertise to elevate your client’s digital narrative to the next level with digital support to all areas, from websites to e-commerce stores."
-            }
-        },
-        "WebApps": {
-            "hero": {
-                "heading1": "We birth ",
-                "heading2": "websites and apps ",
-                "heading3": "that solves problems and improve businesses",
-                "subheading1": "We conceive, nurture, and deliver unique websites and apps that bring our client’s digital dreams to life. ",
-                "subheading2": "Our team acts as a strong bridge, guiding projects from ideation to development. ",
-                "subheading3": "Just as a newborn carries potential, our creations enter the digital realm ready to thrive.",
-                "button": "Develop my idea!"
-            },
-            "process": {
-                "heading1": "Research and Planning",
-                "heading2": "UX & UI Design",
-                "heading3": "Development",
-                "heading4": "Testing & QA",
-                "heading5": "Launch",
-                "subheading1": "We will hold an initial client meeting. Identify your needs and goalds and analyze project requirements.",
-                "subheading2": "We will Conduct Wireframing and Prototyping Sessions. Gather design feedback.",
-                "subheading3": "Write Code and Implement Functionality. Have hold meetings with you and discuss and collaborate on coding approaches.",
-                "subheading4": "Perform Rigorous Quality Assurance. Conduct Thorough Bug Testing.",
-                "subheading5": "We will hold a meeting with you to understand your needs and goals. Conduct a detailed analysis of the project requirements. Research the target audience and client's competition. Define the project scope and timeline, as well as the technologies to be used."
-            }
-        },
-        "Magna": {
-            "cardDescription": "CRM Application for Professional Training Management.",
-            "heading1": "Conceived with the purpose of",
-            "heading2": "optimizing course administration",
-            "heading3": "for the Comenius Cooperative.",
-            "description1": "  Magna offers a range of comprehensive functionalities, including the creation of courses with various modules, student enrollment in courses, and the registration of trainers in a pool of educators. Trainers registered in this pool become eligible for assignment to specific disciplines.",
-            "description2": " A notable feature of Magna is automation in creating and managing all training-related documents, using Standard Operating Procedures (SOP) to handle all Technical-Pedagogical Dossiers (DTP).",
-            "appInfo1": "Course coordinators can select the necessary documents for a particular course, and the platform generates these documents automatically based on the data stored in the database. Additionally, the platform allows for the download, signing, and subsequent upload of documents for any future reference.",
-            "appInfo2": "Magna generates reports, such as attendance and presence, in Excel format, and enables the insertion and updating of data through Excel documents.",
-            "appInfo3": " Furthermore, it offers features for the administration of personal data and identification documents for all involved in the training process.",
-            "appInfo4": "The platform enables efficient organization of classes, courses, Short-Duration Training Units (UFCDS), and disciplines.",
-            "appInfo5": " Lastly, it stands out for its ability to automatically generate training-related contracts and send them via email to the recipients.",
-            "appInfo6": "Magna also stands out for its integration with Moodle, allowing direct retrieval of information from that platform. This integration facilitates access to relevant data, such as student personal information and evaluation data, including attendance, participation, and grades, among others.",
-            "appInfo7": "Additionally, Magna integrates with Google Meet, automatically creating rooms and sending links to all class participants. In this way, Magna not only simplifies course management but also establishes an effective bridge with Moodle and Google Meet, maximizing the integration of essential data for efficient and personalized administration of the training process."
-        },
-        "MrWipe": {
-            "cardDescription": "Luxury car cleaning application.",
-            "heading": "is an innovative app for eco-friendly home and on-demand cleaning services",
-            "description1": "MrWipe is an app for ordering eco-friendly home and on-demand cleaning services, minimizing water usage. It allows easy scheduling on smartphones for quick and efficient cleaning services, standing out with premium offerings tailored for high-quality home or office needs.",
-            "description2": "Our client, an investor dedicated to this project, chose Dionamite with confidence, expecting timely delivery and post-app launch support. The app, available on Google Play and iOS, caters to users, collaborators, and administrators, each with their dedicated dashboard.",
-            "appInfo1": "Developed with Node, React Native, MongoDB, and Firebase, the app prioritizes user and application owner (MRWIPE UNIPESSOAL LDA) rights protection.",
-            "appInfo2": "Specific features include multi-language support (English, Portuguese, or Russian),",
-            "appInfo3": ", an admin interface for quick assessment of cleaning collaborator candidates, MBWAY and Stripe payment integration, TOC online invoicing, and automated email sending.",
-            "appInfo4": "The app also incorporates geolocation services,",
-            "appInfo5": "offering real-time tracking of cleaning collaborators, user-scheduled appointments based on collaborator availability, instant event notifications,",
-            "appInfo6": " and the use of Maps API and GeoLocation API for route integration between users and collaborators.",
-            "appInfo7": "For app links, visit ",
-            "appInfo8": " or search for \"MrWipe\" in the App Store for iOS."
-        },
-        "FormSuccess": {
-            "title": "Form submitted successfully",
-            "description": "We will contact you as soon as possible.",
-            "button": "Done"
-        },
-        "backToHome": "Back to Home",
-        "seeMore": "See more",
-        "seeMoreWork": "See more work"
-    },
-    "FI": {
-        "header": {
-            "services": "Palvelut",
-            "portfolio": "Portfoliot",
-            "aboutus": "Tietoa meistä",
-            "contacts": "Yhteystiedot"
-        },
-        "home": {
-            "hero": {
-                "heading": "Tuomme ideasi digitaaliseen maailmaan",
-                "subheading": "Toimistomme auttaa sinua luomaan houkuttelevan ja käyttäjäystävällisen verkkopresenssin. Olemme täydellinen kumppani yrittäjille, jotka tarvitsevat luotettavan toimiston verkkosivujen ja mobiilisovellusten kehittämiseen."
-            },
-            "services": {
-                "title": "Mitä teemme",
-                "websites": {
-                    "title": "Verkkosuunnittelu",
-                    "responsive": {
-                        "title": "01. Joustavat sivut",
-                        "description": "Jos tarvitset näkyvyyttä itsellesi tai yrityksellesi, voimme auttaa. Vetovoimaa ja käytettävyyttä taataan. Käytämme Webflow'ta, WordPressia ja Shopify'ta."
-                    },
-                    "ecommerce": {
-                        "title": "02. E-kaupat",
-                        "description": "Tarvitsetko verkkokaupan? Meiltä saat kaupan tuotteidesi esittelyyn sekä henkilökohtaista ohjausta parhaista käytännöistä ja trendeistä."
-                    },
-                    "landingpages": {
-                        "title": "03. Landing-sivut",
-                        "description": "Haluatko luoda uusia asiakkaita? Landing-sivu on etsimäsi ratkaisu - räätälöimme palvelusi toiminnalliseksi sivuksi, joka on täysin optimoitu hakukoneita varten erottuakseen hakutuloksissa."
-                    },
-                    "button": "Seuraa prosessia"
-                },
-                "apps": {
-                    "title": "Sovellukset",
-                    "webapps": {
-                        "title": "01. Verkkosovellukset",
-                        "description": "Verkkosovelluksen avulla voit toteuttaa tiettyjä ratkaisuja yrityksellesi, projektillesi tai idealle, joka on saatavilla tietokoneen tai mobiiliselaimen kautta."
-                    },
-                    "mobile": {
-                        "title": "02. Mobiili",
-                        "description": "Jos ideasi sisältää mobiilisovelluksen, meillä on laaja valikoima teknologioita auttamassa sinua. Haluatko luoda lemmikkieläimille suunnatun sosiaalisen verkoston? Sovelluksen kurssillesi?"
-                    },
-                    "ucdesign": {
-                        "title": "03. Käyttäjäkeskeinen suunnittelu",
-                        "description": "Suunnittelumme painottuu käyttäjäystävällisten käyttöliittymien luomiseen hyödyntäen viitteitä, trendejä ja UX/UI-periaatteita."
-                    },
-                    "button": "Seuraa prosessia"
-                }
-            },
-            "testimonials": {
-                "title": "Mitä asiakkaat sanovat",
-                "avi": {
-                    "name": "Avi Eliasquevici",
-                    "title": "Toimitusjohtaja, MrWipe",
-                    "quote": "He ymmärsivät nopeasti tarpeemme ja odotuksemme, ja toimittivat yli niiden.\n\nTiimillä on terävä silmä suunnitteluun ja käyttäjäkokemukseen, ja heidän tuloksensa heijastavat sitä. Olemme erittäin tyytyväisiä heidän työhönsä."
-                },
-                "rui": {
-                    "name": "Rui Pena",
-                    "title": "Hallituksen jäsen, Cooperativa Comenius",
-                    "quote": "Minkä Dionamite auttoi meitä kanssa, oli ratkaisujen räätälöinti kehittämisessä...\n\nLöysin Dionamitestä laajan tiedon, joka antoi minulle luottamusta, että saan sovelluksen, joka vastaa tarkasti liiketoimintamme tarpeisiin."
-                },
-                "tomoya": {
-                    "name": "Tomoya Hamada",
-                    "title": "Castro Travel Portugal",
-                    "quote": "Suunnittelu ei vain tavoittanut brändini oleellisuutta, vaan takasi myös täydellisen käyttäjäkokemuksen. Mikä erottaa heidät, erityisesti Diogo, on henkilökohtainen lähestymistapa.\n\nHe käyttivät aikaa ymmärtääkseen liiketoimintani tavoitteet ja mukauttivat sivuston sen mukaisesti. Tämä huomion kiinnittäminen yksityiskohtiin ja sitoutuminen ylittämään odotukset on 10/10!"
-                }
-            },
-            "hello": {
-                "title": "Hei",
-                "heading1": "Kuka olemme",
-                "description1": "Olen Diogo, työskentelen Lissabonin keskustassa! ☀️\nTyöskenneltyäni kehittäjänä ja opetettuani ohjelmointia, päätin laittaa osaamiseni käytäntöön, rakentaa tiimini ja perustaa toimistomme tukemaan ihmisiä, jotka tarvitsevat teknisen liiketoimintakumppanin.",
-                "heading2": "Sijoita",
-                "description2": "Luottaminen projektisi muiden käsiin ei ole helppoa.\nTiedän ja kohtaan tämän haasteen itse sijoittaessani tai luottaessani muihin tänään. Mutta olen aina täällä, valmis seisomaan luodun arvon ja luottamuksen takana - joka päivä pyrimme tarttumaan tiimin työhön ja kysymään, 'Vastatakohan tämä asiakkaan odotuksia?'\n\nTämä mielentila yhdessä rehellisyyden kanssa suunnittelussa ja prosessissa on se, mikä ylläpitää hyvää suhdetta, jota aina arvostan asiakkaisiimme.",
-                "mark1": "?"
-            },
-            "portfolio": {
-                "title": "Portfoliot",
-                "mrwipe": {
-                    "title": "MrWipe",
-                    "description": "Luksusautonpesupalvelusovellus."
-                },
-                "magna": {
-                    "title": "Magna",
-                    "description": "Asiantuntijakoulutuksen CRM-sovellus."
-                }
-            },
-            "aboutus": {
-                "title": "Tietoa meistä",
-                "heading1": "Tiimimme",
-                "description1": "Dionamitessa emme ole pelkästään kehittäjiä; meillä on myös kumppaneita markkinoinnissa, suunnittelussa, tietojen analysoinnissa ja muilla ohjelmoinnin aloilla. Meillä on etu tiimistämme käytettävissäsi rehellisessä ja vakavassa ympäristössä, ja tiedämme, kenelle puhua, kun otetaan mukaan alueita ytimemme ulkopuolelta.",
-                "heading2": "Asiantuntemuksemme",
-                "description2": "Erikoisalueitamme ovat täyspinoaava kehitys ja mobiilikehitys. Suurin etumme on työskennellä paitsi täyspinoaavien kehityshankkeiden parissa, myös muilla alueilla, kuten Testiautomaatio, DevOps, Tietoanalytiikka, LoChain-kehitys, Pelikehitys ja paljon muuta."
-            },
-            "contact": {
-                "heading1": "Missä olemme!",
-                "description1": "Tiimimme työskentelee 100% verkossa, mutta olemme sijaitsemassa avoimissa tiloissa Lissabonissa, Portossa ja Alcobaçassa.\n\nHaluatpa keskustella projekteista kanssamme tai saada tarjouksen, jätä meille sähköposti tai ota meihin yhteyttä suoraan WhatsAppin kautta.",
-                "heading2": "Ota yhteyttä!",
-                "email": "Sähköposti",
-                "whatsapp": "WhatsApp",
-                "social": "Some"
-            }
-        },
-        "websites": {
-            "title1": "Verkkosuunnittelu",
-            "description": "Elävöitä verkkopresenssiäsi verkkosuunnittelupalveluidemme avulla. Toimistossamme uskomme toiminnallisuuden voimaan yhdistettynä älykkääseen estetiikkaan. Kyse ei ole vain verkkosivustosta, vaan alustasta, joka puhuttelee yleisöäsi ja edistää tavoitteitasi.\n\nYli 6 vuoden kokemuksella tiimimme ymmärtää, että ensivaikutelma on ratkaiseva digitaalisessa maailmassa. Siksi pyrimme luomaan verkkosivustoja, jotka eivät vain houkuttele visuaalisesti, vaan myös sitouttavat käyttäjät heti sivustolle saavuttaessaan.",
-            "process": {
-                "title": "Kuinka luomme sivustosi",
-                "analysis": {
-                    "title": "Analyysi ja keskustelu",
-                    "subtitle": "Vaihe 1",
-                    "description": "Teemme yksityiskohtaisen analyysin tarpeistasi ja tavoitteistasi. Käymme vuoropuhelua ymmärtääksemme odotuksesi ja varmistaaksemme yhteensopivuuden käytännön kanssa."
-                },
-                "webdesign": {
-                    "title": "Verkkosuunnittelu",
-                    "subtitle": "Vaihe 2",
-                    "description": "Keskitymme selkeiden ja käyttäjäystävällisten käyttöliittymien luomiseen. Esteettisyys otetaan huomioon, mutta käytettävyys ja navigointi eivät kärsi siitä."
-                },
-                "implementation": {
-                    "title": "Toteutus",
-                    "subtitle": "Vaihe 3",
-                    "description": "Hyväksytyn suunnittelun kanssa siirrymme alan standarditeknologioihin (Webflow, WordPress, React) kehittääksemme sivustoja, jotka toimivat eri alustoilla ja laitteissa."
-                },
-                "revision": {
-                    "title": "Arviointi ja testaus",
-                    "subtitle": "Vaihe 4",
-                    "description": "Arviointi- ja testausvaihe on ratkaiseva varmistaaksemme, että lopputuote vastaa odotuksia. Testaamme sivustoa erilaisissa tilanteissa tunnistaaksemme ongelmat ja optimoidaksemme suorituskyvyn."
-                }
-            },
-            "closing1": "🧨 Olemme keskittyneet konkreettisiin huippumarkkinatuloksiin. Haluamme visuaalisen ja toiminnallisen ulottuvuuden, joka saa käyttäjän haluamaan sitoutua verkkosivustoon.",
-            "closing2": "🙌 Yhdistämme luovuuden, teknisen asiantuntemuksen ja asiakassitoutumuksen. Olemme täällä muuttamaan ideasi digitaaliseksi todellisuudeksi."
-        },
-        "apps": {
-            "title": "Reittisuunnitelma",
-            "description1": "Sovelluksen luominen on monitahoinen tehtävä. Lopputuote on saatavilla webissä tai App Store / Google Play -kaupassa. Kulissien takana on myös palvelin, joka tukee tuota sovellusta.",
-            "description2": "Kun saamme ehdotuksen, analysoimme ensin sovelluksen toteutettavuuden markkinoiden ja toiminnallisuuden näkökulmasta. Onko sovellus jo olemassa? Miten voimme tehdä siitä toimivan eri tavalla? Mitä teknologioita meillä on käytettävissä auttaaksemme meitä?",
-            "description3": "Kehitysprosessissa pidämme palavereja asiakkaan kanssa viikon aikana. Koska työskentelemme ketterässä tilassa, tiivistämme aina viikolla valmiit ominaisuudet ja ehdotamme pieniä lisäyksiä seuraavalle viikolle.",
-            "description4": "Kun sovellus on rakennettu, siirrymme testaus- ja käyttöönottofaseihin. Meillä on joukko standardeja, joita noudatamme ja testaamme, mutta laadimme myös testiskriptin asiakkaan kanssa. Suuremmille sovelluksille luomme yksikkötestisarjan, joka ovat testejä, jotka suoritetaan säännöllisesti tai aina kun tapahtuu muutoksia.",
-            "description5": "💥 Lopuksi, kun kaikki testit läpäisevät onnistuneesti, sovellus julkaistaan vastaavassa sovelluskaupassa, valmiina ladataan ja käytettäväksi käyttäjien toimesta.",
-            "process": {
-                "research": {
-                    "title": "Tutkimus ja suunnittelu",
-                    "description": "Pitäkää palaveri asiakkaan kanssa ymmärtääksemme heidän tarpeensa ja tavoitteensa. Suorita yksityiskohtainen analyysi projektin vaatimuksista.\n\nTutki kohdeyleisöä ja asiakkaan kilpailua. Määrittele projektin laajuus ja aikataulu sekä käytettävät teknologiat."
-                },
-                "uxui": {
-                    "title": "Käyttäjäkokemus ja käyttöliittymäsuunnittelu",
-                    "description": "Luo hahmotelmat ja prototyypit visualisoidaksesi sivuston tai sovelluksen rakenteen ja navigaation. \n\nKehitä visuaalinen suunnittelu, mukaan lukien brändi-identiteetti, värit, typografia ja graafiset elementit."
-                },
-                "development": {
-                    "title": "Kehitys",
-                    "description": "Käännä suunnittelu koodiksi luomalla responsiivinen, saavutettava ja optimoitu käyttöliittymä eri laitteille.\n\nIntegroi sovellus toimivan palvelimen ja tietokannan kanssa."
-                },
-                "tests": {
-                    "title": "Testaus ja laadunvarmistus",
-                    "description": "Suorita tiukka testaus varmistaaksesi, että kaikki ominaisuudet toimivat oikein.\n\nVarmista sivuston tai sovelluksen yhteensopivuus eri selaimissa ja laitteissa. Suorita tietoturvatestit haavoittuvuuksien ja hyökkäysten estämiseksi."
-                },
-                "deploy": {
-                    "title": "Käyttöönotto",
-                    "description": "Valmista sopiva isäntäympäristö ja asenna palvelin.\n\nMigroi projekti tuotantoympäristöön. Tee lopulliset säädöt ja suorita sitten käyttöönotto."
-                },
-                "support": {
-                    "title": "Tuki ja ylläpito",
-                    "description": "Tarjoa jatkuvaa tukea, korjaa bugeja, suorita päivityksiä ja parannuksia varmistaaksesi sivuston tai sovelluksen asianmukaisen toiminnan, tietoturvan ja käyttäjien tyytyväisyyden ajan myötä."
-                }
-            }
-        },
-        "footer": {
-            "clients": "Asiakkaamme",
-            "aboutus": "Tietoa meistä",
-            "privacypolicy": "Tietosuojakäytäntö",
-            "contacts": "Yhteystiedot",
-            "copyright": "@ 2023 Dionamite. Kaikki oikeudet pidätetään."
-        }
-    },
-    "JP": {
-        "header": {
-            "services": "サービス",
-            "portfolio": "ポートフォリオ",
-            "aboutus": "私たちについて",
-            "contacts": "お問い合わせ"
-        },
-        "home": {
-            "hero": {
-                "heading": "あなたのアイデアをデジタル世界に",
-                "subheading": "私たちは、魅力的で使いやすいオンライン空間を提供します。ウェブやモバイルアプリを作成するための頼もしいパートナーとして、起業家の方々をサポートします。"
-            },
-            "services": {
-                "title": "サービス",
-                "websites": {
-                    "title": "ウェブデザイン",
-                    "responsive": {
-                        "title": "01. レスポンシブページ",
-                        "description": "自身やビジネスを宣伝したい方々へ。魅力的で使いやすいウェブページを提供します。Webflow、WordPress、Shopifyを使用しています。"
-                    },
-                    "ecommerce": {
-                        "title": "02. Eコマースストア",
-                        "description": "オンラインストアを必要としていますか？製品を展示するためのストアを提供し、最適なプラクティスとトレンドに基づいたカスタマイズされたサポートを提供します。"
-                    },
-                    "landingpages": {
-                        "title": "03. ランディングページ",
-                        "description": "新しい顧客を獲得したいですか？ランディングページは、SEOに適した機能的で100％適合するページで、検索エンジンでのハイライトを実現します。"
-                    },
-                    "button": "プロセスを追跡"
-                },
-                "apps": {
-                    "title": "アプリ",
-                    "webapps": {
-                        "title": "01. ウェブアプリ",
-                        "description": "ウェブアプリを持つことで、ビジネス、プロジェクト、またはアイデアのための特定のソリューションをブラウザで利用できます。"
-                    },
-                    "mobile": {
-                        "title": "02. モバイル",
-                        "description": "アイデアにモバイルアプリが関係している場合、さまざまなテクノロジーを提供します。ペット向けのソーシャルネットワークを作成したいですか？または、コース用のアプリを作成したいですか？"
-                    },
-                    "ucdesign": {
-                        "title": "03. ユーザーセンタードデザイン",
-                        "description": "私たちのデザインアプローチは、ユーザーフレンドリーなインターフェースを作成することに焦点を当てており、UX/UIの原則、トレンド、リファレンスを活用しています。"
-                    },
-                    "button": "プロセスを追跡"
-                }
-            },
-            "testimonials": {
-                "title": "お客様の声",
-                "avi": {
-                    "name": "Avi Eliasquevici",
-                    "title": "MrWipeのCEO",
-                    "quote": "彼らは迅速に私たちのニーズと期待を理解し、それを超えて提供しました。\n\nチームはデザインとユーザーエクスペリエンスに鋭い洞察力を持っており、その結果はそれを反映しています。私たちは彼らの仕事に非常に満足しています。"
-                },
-                "rui": {
-                    "name": "Rui Pena",
-                    "title": "Cooperativa Comeniusの管理者",
-                    "quote": "Dionamiteが私たちを助けてくれたのは、ソリューションのカスタマイズです...\n\n私たちのビジネスニーズに正確に対応するアプリケーションを提供してくれるDionamiteには、確信を持って必要としています。"
-                },
-                "tomoya": {
-                    "name": "Tomoya Hamada",
-                    "title": "Castro Travel Portugal",
-                    "quote": "そのデザインは私のブランドの本質を捉えるだけでなく、ユーザーエクスペリエンスも完璧です。特にDiogoの個別アプローチが差を生みます。\n\n彼らは私のビジネスの目標を理解するために時間をかけ、サイトを適応させるために尽力しました。細部への注意と期待以上の成果を提供する姿勢は、10/10です！"
-                }
-            },
-            "hello": {
-                "title": "こんにちは",
-                "heading1": "私たちについて",
-                "description1": "私はディオゴで、リスボンの中心部で働いています！ ☀️\n開発者としての仕事とプログラミングの講義を行った後、自身の知識を活かし、チームを組み、ビジネス分野のパートナーを必要とする人々をサポートするためにエージェンシーを設立しました。",
-                "mark1": "?"
-            },
-            "portfolio": {
-                "title": "ポートフォリオ",
-                "mrwipe": {
-                    "title": "MrWipe",
-                    "description": "高級な車のクリーニングサービスアプリケーション。"
-                },
-                "magna": {
-                    "title": "Magna",
-                    "description": "専門的なトレーニング管理のCRMアプリケーション。"
-                }
-            },
-            "aboutus": {
-                "title": "私たちについて",
-                "heading1": "私たちのチーム",
-                "description1": "私たちは開発者だけでなく、マーケティング、デザイン、データ分析など、さまざまな分野のパートナーもいます。私たちのコア領域を超えて連携し、誠実で真面目な環境でチームを利用できる利点があります。"
-            },
-            "contact": {
-                "heading1": "所在地",
-                "description1": "チームは完全にオンラインで作業していますが、リスボン、ポルト、アルコバッサのオープンスペースに位置しています。\n\nプロジェクトの議論や見積もりのために、メールかWhatsAppで直接お問い合わせください。",
-                "heading2": "お問い合わせ",
-                "email": "Eメール",
-                "whatsapp": "WhatsApp",
-                "social": "ソーシャル"
-            }
-        },
-        "websites": {
-            "title1": "ウェブデザイン",
-            "description": "ウェブデザインのサービスでオンラインプレゼンスを活用してください。私たちのウェブエージェンシーでは、機能と洗練された美学の力を信じています。ウェブサイトを持つだけでなく、ユーザーに対話を促し、目標を推進するプラットフォームを提供します。\n\n6年以上の経験を持つチームは、デジタル世界での第一印象が重要であることを理解しています。そのため、ビジュアル的に魅力的なだけでなく、ユーザーがページにアクセスする瞬間から関与するウェブサイトを作成することに努力しています。",
-            "process": {
-                "title": "ウェブサイトの制作プロセス",
-                "analysis": {
-                    "title": "分析とディスカッション",
-                    "subtitle": "第1フェーズ",
-                    "description": "ニーズと目標に関する詳細な分析を行います。お客様との対話を通じて期待値を理解し、実現可能か実用的かを確認します。"
-                },
-                "webdesign": {
-                    "title": "ウェブデザイン",
-                    "subtitle": "第2フェーズ",
-                    "description": "使いやすく直感的なインターフェースを作成することに集中します。美学も考慮しますが、使いやすさとナビゲーションの観点を失いません。"
-                },
-                "implementation": {
-                    "title": "実装",
-                    "subtitle": "第3フェーズ",
-                    "description": "承認されたデザインを元に、業界標準のテクノロジー（Webflow、WordPress、Reactなど）を使用して、さまざまなプラットフォームやデバイスで動作するウェブサイトを開発します。"
-                },
-                "revision": {
-                    "title": "レビューとテスト",
-                    "subtitle": "第4フェーズ",
-                    "description": "レビューとテストのフェーズは、最終製品が期待値を満たすことを確認するために重要です。さまざまなシナリオでウェブサイトをテストし、問題を特定し、パフォーマンスを最適化します。"
-                }
-            },
-            "closing1": "🧨 私たちは具体的な結果に焦点を当てており、トップ市場のレベルを目指しています。ユーザーがウェブサイトと対話したくなる視覚的で機能的な外観を目指しています。",
-            "closing2": "🙌 創造力、技術的な経験、お客様へのコミットメントを結合しています。私たちはあなたのアイデアをデジタルの現実に変えるためにここにいます。"
-        },
-        "apps": {
-            "title": "私たちのロードマップ",
-            "description1": "アプリを作成するには、さまざまな側面が関与します。最終製品はウェブまたはApp Store / Google Playで利用できるアプリケーションです。その背後には、そのアプリケーションをサポートするサーバーも存在します。",
-            "description2": "提案を受けると、まず市場や機能的な観点でアプリケーションの実現可能性を分析します。すでに同様のアプリケーションが存在するかどうか、異なる方法で動作させるためにどのような技術を使用できるかを検討します。",
-            "description3": "開発プロセスでは、週にお客様とミーティングを行います。アジャイルモードで働いているため、週ごとに実施された機能の要約を行い、翌週の小規模な改善提案を行います。",
-            "description4": "アプリケーションが完成したら、テストとデプロイのフェーズに移行します。私たちには従うべき規則とテストがありますが、お客様とも一緒にテストガイドを作成します。大規模なアプリケーションの場合、定期的に実行されるユニットテストを設計します。",
-            "description5": "💥 最終的にすべてのテストが成功した場合、アプリケーションは該当するアプリストアにリリースされ、ユーザーがダウンロードして利用できる状態になります。",
-            "process": {
-                "research": {
-                    "title": "調査と計画",
-                    "description": "お客様とミーティングしてニーズと目標を理解します。プロジェクトの要件を詳細に分析します。\n\nターゲットオーディエンスと競合他社を調査します。プロジェクトのスコープとスケジュール、使用する技術を定義します。"
-                },
-                "uxui": {
-                    "title": "UXとUIデザイン",
-                    "description": "ワイヤーフレームとプロトタイプを作成して、サイトまたはアプリケーションの構造とナビゲーションフローを可視化します。\n\nブランドのアイデンティティ、カラー、タイポグラフィ、グラフィック要素などの視覚的デザインを開発します。"
-                },
-                "development": {
-                    "title": "開発",
-                    "description": "デザインをコードに変換し、さまざまなデバイスに適した、応答性のある、アクセス可能な、最適化されたインターフェースを作成します。\n\nアプリケーションをサポートするサーバーとデータベースを統合します。"
-                },
-                "tests": {
-                    "title": "テストと品質保証",
-                    "description": "すべての機能が正しく動作しているか厳格にテストします。\n\nさまざまなブラウザとデバイスでのサイトまたはアプリケーションの互換性を確認します。セキュリティテストを実施して脆弱性や攻撃から保護します。"
-                },
-                "deploy": {
-                    "title": "展開",
-                    "description": "適切なホスティング環境を準備し、サーバーを設定します。\n\nプロジェクトを本番環境に移行し、最終調整を行い、最終的にリリースします。"
-                },
-                "support": {
-                    "title": "サポートとメンテナンス",
-                    "description": "継続的なサポートを提供し、エラーを修正し、適切な動作、セキュリティ、ユーザーの満足度を確保するための更新と改善を実施します。"
-                }
-            }
-        },
-        "footer": {
-            "clients": "お客様",
-            "aboutus": "私たちについて",
-            "privacypolicy": "プライバシーポリシー",
-            "contacts": "お問い合わせ",
-            "copyright": "© 2023 Dionamite。全権利保護。"
         }
     }
 }

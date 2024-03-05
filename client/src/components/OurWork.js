@@ -128,92 +128,62 @@ const OurWork = () => {
                 <div className="mx-6 lg:w-9/12 lg:mx-auto sm:mt-4 md:mt-32 lg:mt-48 xl:mt-0">
                     <ul id="cards">
                         <li className="card" id="card1">
-                            <div className="flex flex-col justify-between h-full bg-center bg-no-repeat bg-cover cardOurWork" style={{
-                                backgroundImage: 'url("images/ourWork/mrWipe.jpg")',
+                            <a href="https://globalkey-recrutamento.pt/">
+                            <div className="flex flex-col justify-between h-full bg-cover bg-no-repeat bg-cover cardOurWork" style={{
+                                backgroundImage: 'url("images/team/globalkey.png")',
                             }}>
                                 <div className="flex gap-x-1">
                                     <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
                                         <p className="font-medium text-white text-[11px]">UX/UI</p>
                                     </div>
                                     <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">React Native</p>
+                                        <p className="font-medium text-white text-[11px]">Contact-form7</p>
                                     </div>
                                     <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">Mobile App</p>
+                                        <p className="font-medium text-white text-[11px]">Elementor</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-white text-heading3">Mr Wipe</h3>
+                                    <h3 className="font-bold text-white text-heading3">Global Key</h3>
                                     <div className="flex items-center justify-between">
                                         <div className="w-4/5 font-bold tracking-wider text-mediumGray text-heading6">
-                                            {strings.MrWipe.cardDescription}
+
                                         </div>
 
-                                        <a href="/MrWipe" className="flex font-bold tracking-wider uppercase transition-colors gap-x-1 text-orange text-heading6 hover:text-darkOrange">
-                                            {strings.seeMore} <MdArrowOutward size={16} />
-                                        </a>
+                                       
                                     </div>
                                 </div>
                             </div>
+                            </a>
                         </li>
                         <li className="card" id="card2">
-                            <div className="flex flex-col justify-between h-full bg-center bg-no-repeat bg-cover cardOurWork" style={{
-                                backgroundImage: 'url("images/ourWork/magna.jpg")',
+                            <a href="https://hellosevenco.kinsta.cloud/"><div className="flex flex-col justify-between h-full bg-center bg-no-repeat bg-cover cardOurWork" style={{
+                                backgroundImage: 'url("images/team/hello7.png")',
                             }}>
                                 <div className="flex gap-x-1">
                                     <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">MongoDB</p>
+                                        <p className="font-medium text-white text-[11px]">WordPress</p>
                                     </div>
                                     <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">React</p>
+                                        <p className="font-medium text-white text-[11px]">Elementor</p>
                                     </div>
-                                    <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">Web App</p>
-                                    </div>
+
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-white text-heading3">Magna</h3>
+                                    <h3 className="font-bold text-white text-heading3">HelloSeven</h3>
                                     <div className="flex items-center justify-between">
                                         <div className="w-4/5 font-bold tracking-wider text-mediumGray text-heading6">
-                                            {strings.Magna.cardDescription}
-                                        </div>
 
-                                        <a href="/Magna" onClick={() => navigate('/Magna')} className="flex font-bold tracking-wider uppercase transition-colors gap-x-1 text-orange text-heading6 hover:text-darkOrange">
-                                            {strings.seeMore} <MdArrowOutward size={16} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        {/* <li className="card" id="card3">
-                            <div className="flex flex-col justify-between h-full bg-green-500 cardOurWork">
-                                <div className="flex gap-x-1">
-                                    <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">UX/UI</p>
-                                    </div>
-                                    <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">React Native</p>
-                                    </div>
-                                    <div className="rounded-3xl border border-[#424242] bg-[#272727cb] w-fit py-1 px-2">
-                                        <p className="font-medium text-white text-[11px]">Mobile App</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-white text-heading3">Inbahia</h3>
-                                    <div className="flex items-center justify-between">
-                                        <div className="font-bold tracking-wider text-mediumGray text-heading6">
-                                            Luxury car cleaning application
                                         </div>
-                                        <a href="/#form" className="flex font-bold tracking-wider uppercase transition-colors gap-x-1 text-orange text-heading6 hover:text-darkOrange">
-                                            See more <MdArrowOutward size={16} />
-                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </li> */}
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
-                <img className="mx-auto h-36" src='images/ourWork/dinamites.png' alt="Logo" />
+                <img className="mx-auto h-36 orange-to-green" src='images/ourWork/dinamites.png' alt="Logo" />
             </div>
         </section>
     );

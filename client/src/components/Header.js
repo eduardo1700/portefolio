@@ -31,23 +31,21 @@ const Header = () => {
                         {/* LOGO */}
                         <Link to="/">
                             <div className='flex items-center'>
-                                <img className='h-6 mr-2 invert brightness-0' src={"./images/logo/logo.png"} alt='Dionamite Logo' />
-                                <p className='font-extrabold text-white text-heading2'>Dionamite</p>
+                                <img className='h-6 mr-2 invert brightness-0' src={"./images/lapis.png"} alt='Dionamite Logo' />
+                                <p className='font-extrabold text-white text-heading2'>Eduardo</p>
                             </div>
                         </Link>
 
                         {/* OPTIONS */}
-                        <div className="flex items-center flex-grow justify-center leading-4 font-bold tracking-[0.125rem] text-white gap-x-8 text-heading6 ">
+                        <div className="flex items-end flex-grow justify-end mr-12 leading-4 font-bold tracking-[0.125rem] text-white gap-x-8 text-heading6 ">
                             <a className='transition-all hover:text-orange' href="/#services" onClick={() => navigate('/#services')}> {/* We need both to work dont touch */}
                                 {strings.header.services || ""}
                             </a>
                             <a className='transition-all hover:text-orange' href="/#portfolio" onClick={() => navigate('/#portfolio')}>
                                 {strings.header.portfolio || ""}
                             </a>
-                            <a className='transition-all hover:text-orange' href="/#team" onClick={() => navigate('/#team')}>
-                                {strings.header.aboutus || ""}
-                            </a>
-                            <a className='flex items-center transition-all hover:text-orange text-veryLightOrange' href="/#work-with-us" onClick={() => navigate('/#work-with-us')}>
+
+                            <a className='flex items-center transition-all hover:text-orange text-orange' href="/#footer" onClick={() => navigate('/#work-with-us')}>
                                 <span className='pr-2'>{strings.header.contacts || ""}</span>
                                 <FaArrowDown />
                             </a>

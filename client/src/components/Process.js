@@ -79,56 +79,56 @@ const Process = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-        if (window.innerWidth > 1024) { // Desktop
-            if ((window.scrollY * 100) / document.documentElement.scrollHeight > 32
-            ) {
-                setPosFirstWord(4.5)
-                setPosSecondWord(4.5)
-                setPosThirdWord(4.5)
-            } else {
-                setPosFirstWord(0)
-                setPosSecondWord(1.5)
-                setPosThirdWord(3)
+            if (window.innerWidth > 1024) { // Desktop
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 32
+                ) {
+                    setPosFirstWord(4.5)
+                    setPosSecondWord(4.5)
+                    setPosThirdWord(4.5)
+                } else {
+                    setPosFirstWord(0)
+                    setPosSecondWord(1.5)
+                    setPosThirdWord(3)
+                }
+            } else if (window.innerWidth > 768) { // Large tablet
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 36) {
+                    setPosFirstWord(4.5)
+                    setPosSecondWord(4.5)
+                    setPosThirdWord(4.5)
+
+                } else {
+                    setPosFirstWord(0)
+                    setPosSecondWord(1.5)
+                    setPosThirdWord(3)
+
+                }
             }
-        } else if (window.innerWidth > 768) { // Large tablet
-            if ((window.scrollY * 100) / document.documentElement.scrollHeight >  36) {
-                setPosFirstWord(4.5)
-                setPosSecondWord(4.5)
-                setPosThirdWord(4.5)
+            else if (window.innerWidth >= 640) { //  Tablet
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 33) {
+                    setPosFirstWord(4.5)
+                    setPosSecondWord(4.5)
+                    setPosThirdWord(4.5)
 
-            } else {
-                setPosFirstWord(0)
-                setPosSecondWord(1.5)
-                setPosThirdWord(3)
+                } else {
+                    setPosFirstWord(0)
+                    setPosSecondWord(1.5)
+                    setPosThirdWord(3)
 
+                }
+            } else { // Smartphone
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 30) {
+                    setPosFirstWord(4.5)
+                    setPosSecondWord(4.5)
+                    setPosThirdWord(4.5)
+
+                } else {
+                    setPosFirstWord(0)
+                    setPosSecondWord(1.5)
+                    setPosThirdWord(3)
+
+                }
             }
-        }
-        else if (window.innerWidth >= 640) { //  Tablet
-            if ((window.scrollY * 100) / document.documentElement.scrollHeight > 33 ) {
-                setPosFirstWord(4.5)
-                setPosSecondWord(4.5)
-                setPosThirdWord(4.5)
-
-            } else {
-                setPosFirstWord(0)
-                setPosSecondWord(1.5)
-                setPosThirdWord(3)
-
-            }
-        } else { // Smartphone
-            if ((window.scrollY * 100) / document.documentElement.scrollHeight > 30) {
-                setPosFirstWord(4.5)
-                setPosSecondWord(4.5)
-                setPosThirdWord(4.5)
-
-            } else {
-                setPosFirstWord(0)
-                setPosSecondWord(1.5)
-                setPosThirdWord(3)
-
-            }
-        }
-    };
+        };
         window.addEventListener('scroll', handleScroll);
 
         // Clean up the event listener when the component unmounts
