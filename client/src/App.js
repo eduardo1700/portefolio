@@ -60,11 +60,7 @@ function App() {
         :
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Magna" element={<MagnaLandingPage />} />
-          <Route path="/MrWipe" element={<MrWipeLandingPage />} />
-          {/* <Route path="/agencies" element={<AgenciesPage />} /> */}
-          <Route path="/webapps" element={<WebAppsPage />} />
-          <Route path="/formSubmited" element={<FormSubmited />} />
+          
           <Route path="*" element={<_404Page />} />
         </Routes>
       }
