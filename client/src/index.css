@@ -1,0 +1,500 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* Gradients */
+  .orangeGradient {
+    @apply from-[#FF935F] to-darkOrange
+  }
+
+  .darkOrangeGradient {
+    @apply from-orange to-[#6F2300]
+  }
+
+  .yellowOrangeGradient {
+    @apply from-[#FFC149] to-orange
+  }
+
+  .whiteGrayGradient {
+    @apply bg-gradient-to-r from-white to-[#F3F3F3A1]
+  }
+
+  /* Converts the image color to #808080, if you want to change the color go to this website https://codepen.io/sosuke/pen/Pjoqqp */
+  .convertImageColor {
+    @apply filter invert-[51%] sepia-[6%] saturate-[22%] hue-rotate-[347deg] brightness-[97%] contrast-[87%]
+  }
+
+  /* Cards OUR WORK */
+  .cardOurWork {
+    @apply transition-all duration-500 px-4 sm:px-12 py-8 sm:py-12 h-full rounded-3xl shadow-xl box-border
+  }
+}
+
+/* FONT */
+@font-face {
+  font-family: 'Inter';
+  src:
+    url('../public/fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('woff2 supports variations'),
+    url('../public/fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
+}
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  src:
+    url('../public/fonts/TitilliumWeb/TitilliumWeb-Black.ttf');
+}
+
+/* CUSTOM SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1b1b1b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F15A14;
+  border-radius: 0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CC4C11;
+}
+
+/* CUSTOM SCROLLBAR END*/
+
+/* Put the text only with color on the borders */
+.textTransparent {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+/* CARDS */
+/* Card1 */
+.borderGradient1 {
+  background: linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(33, 33, 33, 0) 50%);
+  background: -moz-linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(240deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardGradient1 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: -webkit-linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: linear-gradient(198deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+.bottomGradient1 {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(0deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 50%);
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+/* Card2 */
+.borderGradient2 {
+  background: linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(-60deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardGradient2 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  background: linear-gradient(90deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+/* Card3 */
+.borderGradient3 {
+  background: linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(40deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardGradient3 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  background: -webkit-linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  background: linear-gradient(40deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+.bottomGradient3 {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(-100deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: -webkit-linear-gradient(-100deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: linear-gradient(-100deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+/* Card4 */
+.cardGradient4 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: -webkit-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+.bottomGradient4 {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(-95deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: -webkit-linear-gradient(-95deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: linear-gradient(-95deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+/* Card5 */
+.borderGradient5 {
+  background: linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(115deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardGradient5 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: -webkit-linear-gradient(-20deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  background: linear-gradient(-10deg, rgba(77, 43, 27, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+.bottomGradient5 {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(-95deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: -webkit-linear-gradient(-95deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  background: linear-gradient(70deg, rgba(32, 32, 32, 0.9) 0%, rgba(32, 32, 32, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+/* Card 6 */
+.borderGradient6 {
+  background: linear-gradient(85deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(85deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(85deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.bottomGradient6 {
+  background: rgba(32, 32, 32, 0.5);
+}
+
+.cardGradient6 {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
+  background: -webkit-linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
+  background: linear-gradient(25deg, rgba(77, 43, 27, 1) 15%, rgba(32, 32, 32, 0.1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+/* Card Meet Diogo */
+.borderDiogoGradient {
+  background: linear-gradient(90deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(90deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(255, 130, 71, 1) 0%, rgba(255, 130, 71, 0) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardDiogoGradient {
+  background: rgb(112, 52, 24);
+  background: -moz-linear-gradient(90deg, rgba(112, 52, 24, 1) 50%, rgba(77, 43, 27, 0) 70%);
+  background: -webkit-linear-gradient(90deg, rgba(112, 52, 24, 1) 50%, rgba(77, 43, 27, 0) 70%);
+  background: linear-gradient(90deg, rgba(112, 52, 24, 1) 50%, rgba(77, 43, 27, 0) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
+
+/* Form */
+.borderGradientForm {
+  background: linear-gradient(-55deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -moz-linear-gradient(-55deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  background: -webkit-linear-gradient(-55deg, rgba(255, 130, 71, 1) 0%, rgba(32, 32, 32, 0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8247", endColorstr="#202020", GradientType=1);
+}
+
+.cardGradientForm {
+  background: radial-gradient(circle at top left, rgba(152, 71, 34, 1) 0%, rgba(32, 32, 32, 1) 50%);
+  background: -webkit-radial-gradient(ellipse at top left, rgba(152, 71, 34, 1), rgba(32, 32, 32, 1));
+  background: -moz-radial-gradient(ellipse at top left, rgba(152, 71, 34, 1), rgba(32, 32, 32, 1));
+}
+
+.bottomGradientForm {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(270deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 70%);
+  background: -webkit-linear-gradient(270deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 70%);
+  background: linear-gradient(270deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+
+.bottomGradientCard {
+  background: rgb(32, 32, 32);
+  background: -moz-linear-gradient(0deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 70%);
+  background: -webkit-linear-gradient(0deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 70%);
+  background: linear-gradient(0deg, rgba(32, 32, 32, 1) 0%, rgba(32, 32, 32, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020", endColorstr="#202020", GradientType=1);
+}
+
+.tableBlack {
+  border-radius: var(--corner-radius-corner-l, 16px);
+  border: 1px solid #2F2F2F;
+  background: #232323;
+  box-shadow: 0px -2px var(--spacing-spacing-xs, 12px) 0px rgba(17, 17, 17, 0.35);
+}
+
+.gradient-ball {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1300px;
+  height: 500px;
+  filter: blur(100px);
+  border-radius: 50%;
+  background: radial-gradient(circle, #7d3818 0%, #000000 100%);
+}
+
+.dionamites img:nth-child(1) {
+  transform: translate(0%)
+}
+.dionamites img:nth-child(2) {
+  transform: translate(-40%)
+}
+.dionamites img:nth-child(3) {
+  transform: translate(20%)
+}
+.dionamites img:nth-child(4) {
+  transform: translate(100%)
+}
+
+.animation1 {
+  animation-name: animeDionamite1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+@keyframes animeDionamite1 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  60% {
+    left: 84px;
+    opacity: 1;
+  }
+
+  75% {
+    left: 98px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+
+.animation2 {
+  animation-name: animeDionamite2;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+@keyframes animeDionamite2 {
+  0% {
+    left: 7.5px;
+    opacity: 0;
+  }
+
+  35% {
+    left: 46px;
+    opacity: 1;
+  }
+
+  45% {
+    left: 53px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.animation3 {
+  animation-name: animeDionamite3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 35s;
+}
+
+@keyframes animeDionamite3 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  50% {
+    left: 70px;
+    opacity: 1;
+  }
+
+  55% {
+    left: 77px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.animation4 {
+  animation-name: animeDionamite4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 20s;
+}
+
+@keyframes animeDionamite4 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  20% {
+    left: 20px;
+    opacity: 1;
+  }
+
+  30% {
+    left: 30px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.animation5 {
+  animation-name: animeDionamite5;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10s;
+}
+
+@keyframes animeDionamite5 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  40% {
+    left: 64px;
+    opacity: 1;
+  }
+
+  55% {
+    left: 88px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.animation6 {
+  animation-name: animeDionamite6;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 25s;
+}
+
+@keyframes animeDionamite6 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  60% {
+    left: 48px;
+    opacity: 1;
+  }
+
+  70% {
+    left: 56px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.animation7 {
+  animation-name: animeDionamite7;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+@keyframes animeDionamite7 {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  40% {
+    left: 48px;
+    opacity: 1;
+  }
+
+  55% {
+    left: 66px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 0;
+  }
+}
+
+.bannerGradient {
+  background: rgb(77, 43, 27);
+  background: -moz-linear-gradient(185deg, #F26A2B 15%, rgb(255, 118, 55, 0.4) 95%);
+  background: -webkit-linear-gradient(185deg, #F26A2B 15%, rgb(255, 118, 55, 0.4) 95%);
+  background: linear-gradient(185deg, #F26A2B 15%, rgb(255, 118, 55, 0.4) 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2b1b", endColorstr="#202020", GradientType=1);
+}
