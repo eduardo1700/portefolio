@@ -76,18 +76,18 @@ const MeetDiogo = () => {
     return (
         <section id='portfolio'>
             <div className='relative h-[18rem] lg:h-[22rem]'>
-                <div className='select-none text-[5.5rem] sm:text-[9rem] lg:text-[13rem] xs:text-[7rem] font-bold textTransparent text-orange opacity-10 uppercase w-full text-center absolute transition-all duration-1000 leading-[1.2]' style={{ top: `${posFirstWord}rem` }} >
+                <div className='select-none text-[5rem] sm:text-[8rem] lg:text-[13rem] xs:text-[3.5rem] font-bold textTransparent text-orange opacity-10 uppercase w-full text-center absolute transition-all duration-1000 leading-[1.2]' style={{ top: `${posFirstWord}rem` }} >
                     MEET EDUARDO!
                 </div>
-                <div className='select-none text-[5.5rem] sm:text-[9rem] lg:text-[13rem] xs:text-[7rem] font-bold text-orange opacity-20 textTransparent uppercase text-center w-full absolute top-12 textTransparent transition-all duration-1000 leading-[1.2]' style={{ top: `${posSecondWord}rem` }}   >
+                <div className='select-none text-[5rem] sm:text-[8rem] lg:text-[13rem] xs:text-[3.5rem] font-bold text-orange opacity-20 textTransparent uppercase text-center w-full absolute top-12 textTransparent transition-all duration-1000 leading-[1.2]' style={{ top: `${posSecondWord}rem` }}   >
                     MEET EDUARDO!
                 </div>
-                <div className='select-none text-[5.5rem] sm:text-[9rem] lg:text-[13rem] xs:text-[7rem] font-bold text-orange opacity-80 uppercase text-center w-full absolute top-24 textTransparent leading-[1.2]'>
+                <div className='select-none text-[5rem] sm:text-[8rem] lg:text-[13rem] xs:text-[3.5rem] font-bold text-orange opacity-80 uppercase text-center w-full absolute top-24 textTransparent leading-[1.2]'>
                     MEET EDUARDO!
                 </div>
             </div>
 
-            <div className='mt-[38rem] xl:mt-[20rem] 2xl:mt-0 mx-6 lg:mx-36'>
+            <div className='mt-[38rem]  xs:mt-[25rem] xl:mt-[20rem] 2xl:mt-0 mx-6 lg:mx-36'>
                 <div className='grid grid-cols-1 gap-4 mt-8 lg:grid-cols-2 lg:mt-36 lg:gap-x-12'>
                     <div className='relative w-full'>
                         <div className='p-[1px] rounded-2xl h-[24rem] w-full borderGradient1 absolute bottom-0'>
