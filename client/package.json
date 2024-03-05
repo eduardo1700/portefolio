@@ -17,6 +17,7 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^10.4.0",
     "framer-motion": "^10.16.0",
+    "gh-pages": "^6.1.1",
     "gsap": "^3.12.2",
     "isomer": "^0.2.6",
     "jquery": "^3.7.0",
