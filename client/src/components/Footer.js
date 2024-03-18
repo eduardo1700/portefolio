@@ -8,7 +8,7 @@ const Footer = () => {
     const { strings } = useContext(LanguageContext);
 
     return (
-        <footer id="footer" className='relative mt-32 bg-gradient-to-r yellowOrangeGradient w-full'>
+        <footer id="footerEP" className='relative mt-32 bg-gradient-to-r yellowOrangeGradient w-full pb-10'>
             <div className='text-[19.5vw] -ml-3 md:-ml-5 lg:-ml-10 font-TitilliumWeb text-center leading-[2rem] xs:leading-[2.5rem] sm:leading-[3rem] md:leading-[5rem] lg:leading-[6.5rem] xl:leading-[10rem] font-bold italic uppercase text-[#1b1b1b] select-none'>
                 EDUARDO
             </div>
@@ -39,16 +39,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className='border-t border-[#000] border-opacity-20 w-full mx-auto mt-8 '>
-                <div className='flex flex-col items-center justify-center gap-1 py-8 sm:flex-row '>
-                    <p className='font-semibold text-center opacity-100 text-smallP'>
-                        {`Dionamite © 2023 - ${strings.home.footer.rights}  `}
-                    </p>
-                    <a href="/#form" className='font-bold text-center underline opacity-100 sm:mt-0 text-smallP'>
-                        {strings.home.footer.privacyPolicy}
-                    </a>
-                </div>
-            </div>
+
         </footer>
     );
 };

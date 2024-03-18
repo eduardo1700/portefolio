@@ -12,7 +12,7 @@ const MeetDiogo = () => {
         const handleScroll = () => {
 
             if (window.innerWidth > 1024) { // Desktop
-                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 63
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 75
                 ) {
                     setPosFirstWord(6)
                     setPosSecondWord(6)
@@ -50,7 +50,7 @@ const MeetDiogo = () => {
 
                 }
             } else { // Smartphone
-                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 66.6) {
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 71) {
                     setPosFirstWord(6)
                     setPosSecondWord(6)
 

@@ -13,13 +13,14 @@ const OurWork = () => {
 
     useEffect(() => {
         const handleScroll = () => {
+           
             /*
              This function is used to make the text scrolling animation it verifies wich kind of device(innerWidth) we are using 
             after that verifies if  (percentage of scroll > desired break point for the animation) 
             if so the animation is aplied, if not the text returns to the begining positions 
             */
             if (window.innerWidth > 1024) { // Desktop
-                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 35) {
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 45) {
                     setPosFirstWord(4.5)
                     setPosSecondWord(4.5)
                     setPosThirdWord(4.5)
@@ -50,7 +51,7 @@ const OurWork = () => {
                     setPosThirdWord(3)
                 }
             } else { // Smartphone
-                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 29.5) {
+                if ((window.scrollY * 100) / document.documentElement.scrollHeight > 45) {
                     setPosFirstWord(4.5)
                     setPosSecondWord(4.5)
                     setPosThirdWord(4.5)
@@ -108,7 +109,7 @@ const OurWork = () => {
     }`;
 
     return (
-        <section className='mt-10' id="portfolio">
+        <section className='mt-10' id="portfolioEP">
             <div className='relative h-[18rem] lg:h-[22rem]'>
                 <div className='text-[3.5rem] xs:text-[4.5rem] sm:text-[9rem] lg:text-[13rem] select-none font-bold textTransparent text-orange opacity-80 uppercase w-full text-center absolute transition-all duration-1000 leading-[1.2]' style={{ top: `${posFirstWord}rem` }} >
                     OUR WORK

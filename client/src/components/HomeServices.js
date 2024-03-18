@@ -9,7 +9,7 @@ const HomeServices = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if ((window.scrollY * 0.1) > 70) {
+            if ((window.scrollY * 0.1) > 65) {
                 setPosFirstWord(4.5)
                 setPosSecondWord(4.5)
                 setPosThirdWord(4.5)
@@ -139,7 +139,7 @@ const HomeServices = () => {
 
 
 
-                
+
             </div>
             <img className='w-[80rem] mt-6 mx-auto orange-to-green' src='images/cards/ourServices.png' alt='Our services' />
         </section>

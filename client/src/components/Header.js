@@ -41,11 +41,11 @@ const Header = () => {
                             <a className='transition-all hover:text-orange' href="/#services" onClick={() => navigate('/#services')}> {/* We need both to work dont touch */}
                                 {strings.header.services || ""}
                             </a>
-                            <a className='transition-all hover:text-orange' href="/#portfolio" onClick={() => navigate('/#portfolio')}>
+                            <a className='transition-all hover:text-orange' href="/#portfolioEP" onClick={() => navigate('/#portfolio')}>
                                 {strings.header.portfolio || ""}
                             </a>
 
-                            <a className='flex items-center transition-all hover:text-orange text-orange' href="/#footer" onClick={() => navigate('/#work-with-us')}>
+                            <a className='flex items-center transition-all hover:text-orange text-orange' href="/#footerEP" onClick={() => navigate('/#work-with-us')}>
                                 <span className='pr-2'>{strings.header.contacts || ""}</span>
                                 <FaArrowDown />
                             </a>
@@ -81,13 +81,11 @@ const Header = () => {
                                 <a className='transition-all hover:text-orange ' href="/#services">
                                     {strings.header.services || ""}
                                 </a>
-                                <a className='mt-4 transition-all hover:text-orange' href="/#portfolio">
+                                <a className='mt-4 transition-all hover:text-orange' href="/#portfolioEP">
                                     {strings.header.portfolio || ""}
                                 </a>
-                                <a className='mt-4 transition-all hover:text-orange' href="/#team">
-                                    {strings.header.aboutus || ""}
-                                </a>
-                                <a className='flex items-center mt-4 transition-all hover:text-orange text-veryLightOrange' href="/#work-with-us">
+
+                                <a className='flex items-center mt-4 transition-all hover:text-orange text-orange' href="/#footerEP">
                                     <span className='pr-2'>{strings.header.contacts || ""}</span>
                                     <FaArrowDown />
                                 </a>

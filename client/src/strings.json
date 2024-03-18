@@ -47,7 +47,7 @@
                 "nav2": "NOSSOS PROJETOS",
                 "header1": "Entre em contacto",
                 "header2": "Siga as nossas Redes Sociais",
-                "portugal": "De Portugal para o mundo!",
+                "portugal": "Do seu escritorio para o mundo!",
                 "privacyPolicy": "Política de Privacidade",
                 "rights": "Todos os Direitos Reservados."
             }
@@ -57,15 +57,14 @@
         "header": {
             "services": "WHAT WE DO",
             "portfolio": "OUR PROJECTS",
-            "aboutus": "OUR TEAM",
             "contacts": "WORK WITH US"
         },
         "home": {
             "hero": {
                 "heading": "Bring your ideas to any screen",
-                "subheading": "I am",
+                "subheading": "I am ",
                 "subheadingOrange": "your partner to take your work",
-                "subheadingOrange2": "to the digital world.",
+                "subheadingOrange2": " to the digital world. ",
                 "subheadingWhite": "I provide guidance and clarity in the creation process, giving hands-on control over your own digital product.",
                 "button": "See what I do"
             },
@@ -103,7 +102,7 @@
                 "nav3": "OUR TEAM",
                 "header1": "Get in touch",
                 "header2": "Follow us on Social Media",
-                "portugal": "From Portugal to the world!",
+                "portugal": "From your office to the world!",
                 "privacyPolicy": "Privacy Policy",
                 "rights": "All Rights Reserved."
             }
